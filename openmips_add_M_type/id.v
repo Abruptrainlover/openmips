@@ -134,6 +134,60 @@ module id(
 						reg2_read_o <= 1'b0;
 						instvalid	<= `InstValid;
 					end
+					`EXE_MOVN:	begin
+						aluop_o <= `EXE_MOVN_OP;
+						alusel_o <= `EXE_RES_MOV;
+						reg1_read_o <= 1'b1;
+						reg2_read_o <= 1'b1;
+						instvalid	<= `InstValid;
+						if(reg2_o != `ZeroWord)
+							wreg_o <=`WriteEnable;
+						else 
+							wreg_o <= `WriteDisable;
+					end
+					`EXE_MOVZ:	begin
+						aluop_o <= `EXE_MOVZ_OP;
+						alusel_o <= `EXE_RES_MOV;
+						reg1_read_o <= 1'b1;
+						reg2_read_o <= 1'b1;
+						instvalid	<= `InstValid;
+						if(reg2_o == `ZeroWord)
+							wreg_o <=`WriteEnable;
+						else 
+							wreg_o <= `WriteDisable;
+					end
+					`EXE_MFHI:	begin
+						wreg_o <= `WriteEnable;
+						aluop_o <= `EXE_MFHI_OP;
+						alusel_o <= `EXE_RES_MOV;
+						reg1_read_o <= 1'b0;
+						reg2_read_o <= 1'b0;
+						instvalid	<= `InstValid;
+					end
+					`EXE_MTHI:	begin
+						wreg_o <= `WriteDisable;
+						aluop_o <= `EXE_MTHI_OP;
+						//alusel_o <= `EXE_RES_MOV;
+						reg1_read_o <= 1'b1;
+						reg2_read_o <= 1'b0;
+						instvalid	<= `InstValid;
+					end
+					`EXE_MFLO:	begin
+						wreg_o <= `WriteEnable;
+						aluop_o <= `EXE_MFLO_OP;
+						alusel_o <= `EXE_RES_MOV;
+						reg1_read_o <= 1'b0;
+						reg2_read_o <= 1'b0;
+						instvalid	<= `InstValid;
+					end
+					`EXE_MTLO:	begin
+						wreg_o <= `WriteDisable;
+						aluop_o <= `EXE_MTLO_OP;
+						//alusel_o <= `EXE_RES_MOV;
+						reg1_read_o <= 1'b1;
+						reg2_read_o <= 1'b0;
+						instvalid	<= `InstValid;
+					end
 					default:	begin
 					end
 			endcase
