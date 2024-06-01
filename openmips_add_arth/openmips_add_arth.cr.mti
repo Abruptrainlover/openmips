@@ -1,0 +1,95 @@
+/home/yzw/Desktop/riscv/openmips_add_arth/regfile.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/regfile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/defines.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/defines.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/openmips_min_spoc_tb.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/openmips_min_spoc_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module openmips_min_spoc_tb
+
+Top level modules:
+	openmips_min_spoc_tb
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/mem.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/mem_wb.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/mem_wb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem_wb
+
+Top level modules:
+	mem_wb
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/pc_reg.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/pc_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc_reg
+
+Top level modules:
+	pc_reg
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/openmips_min_spoc.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/openmips_min_spoc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module openmips_min_spoc
+
+Top level modules:
+	openmips_min_spoc
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ex_mem
+
+Top level modules:
+	ex_mem
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module openmips
+
+Top level modules:
+	openmips
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/id.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/id.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module id
+
+Top level modules:
+	id
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/id_ex.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/id_ex.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module id_ex
+
+Top level modules:
+	id_ex
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/hilo_reg.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/hilo_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module hilo_reg
+
+Top level modules:
+	hilo_reg
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/if_id.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/if_id.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module if_id
+
+Top level modules:
+	if_id
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/inst_rom.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/inst_rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module inst_rom
+
+Top level modules:
+	inst_rom
+
+} {} {}}

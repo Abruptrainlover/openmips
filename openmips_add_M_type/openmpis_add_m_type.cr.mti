@@ -64,6 +64,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	id_ex
 
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_M_type/openmips.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_M_type/openmips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module openmips
+
+Top level modules:
+	openmips
+
 } {} {}} /home/yzw/Desktop/riscv/openmips_add_M_type/ex_mem.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_M_type/ex_mem.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ex_mem

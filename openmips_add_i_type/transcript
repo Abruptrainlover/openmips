@@ -442,3 +442,1901 @@ run
 quit -sim
 # End time: 15:34:49 on May 30,2024, Elapsed time: 0:03:27
 # Errors: 0, Warnings: 7
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project openmips_add_arth
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 00:14:40 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+add wave -position 2  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:23:04 on Jun 01,2024, Elapsed time: 0:08:24
+# Errors: 0, Warnings: 10
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 00:24:24 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 13:06:58 on Jun 01,2024, Elapsed time: 12:42:34
+# Errors: 0, Warnings: 6
+# Compile of id.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 13:07:16 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/clk
+add wave -position end  sim:/openmips_min_spoc_tb/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 13:11:05 on Jun 01,2024, Elapsed time: 0:03:49
+# Errors: 0, Warnings: 8
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 13:11:18 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/rst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 14:37:40 on Jun 01,2024, Elapsed time: 1:26:22
+# Errors: 0, Warnings: 6
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 14:37:53 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/clk
+add wave -position end  sim:/openmips_min_spoc_tb/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:17:25 on Jun 01,2024, Elapsed time: 0:39:32
+# Errors: 0, Warnings: 6
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 15:17:40 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/clk
+add wave -position end  sim:/openmips_min_spoc_tb/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+quit -sim
+# End time: 15:21:36 on Jun 01,2024, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 6
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 15:21:51 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/clk
+add wave -position end  sim:/openmips_min_spoc_tb/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : /home/yzw/Desktop/riscv/openmips_add_arth/openmips_min_spoc_tb.v(19)
+#    Time: 1095 ns  Iteration: 0  Instance: /openmips_min_spoc_tb
+# Break in Module openmips_min_spoc_tb at /home/yzw/Desktop/riscv/openmips_add_arth/openmips_min_spoc_tb.v line 19
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg1_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg2_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_wreg_i
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_aluop_i
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:20:39 on Jun 01,2024, Elapsed time: 0:58:48
+# Errors: 0, Warnings: 6
+# reading modelsim.ini
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project openmips_chapter7
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim work.openmips_min_sopc_tb 
+# Start time: 16:21:43 on Jun 01,2024
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/clk
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/rst
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/inst
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/inst_addr
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:33:01 on Jun 01,2024, Elapsed time: 0:11:18
+# Errors: 0, Warnings: 5
+project open /home/yzw/Desktop/riscv/openmips_add_arth/openmips_add_arth
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# reading modelsim.ini
+# Loading project openmips_add_arth
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of regfile.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 16:33:38 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg1_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg2_i
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_aluop_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_reg1_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_reg2_o
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_wdata_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_wreg_o
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_wdata_o
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_wdata_i
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : /home/yzw/Desktop/riscv/openmips_add_arth/openmips_min_spoc_tb.v(19)
+#    Time: 1095 ns  Iteration: 0  Instance: /openmips_min_spoc_tb
+# Break in Module openmips_min_spoc_tb at /home/yzw/Desktop/riscv/openmips_add_arth/openmips_min_spoc_tb.v line 19
+quit -sim
+# End time: 17:08:47 on Jun 01,2024, Elapsed time: 0:35:09
+# Errors: 0, Warnings: 6
+# Compile of id.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 17:09:05 on Jun 01,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:24:15 on Jun 02,2024, Elapsed time: 7:15:10
+# Errors: 0, Warnings: 6
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 00:24:26 on Jun 02,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/rom_ce
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:28:30 on Jun 02,2024, Elapsed time: 0:04:04
+# Errors: 0, Warnings: 7
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 00:28:45 on Jun 02,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:36:27 on Jun 02,2024, Elapsed time: 0:07:42
+# Errors: 0, Warnings: 7
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 00:36:39 on Jun 02,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:37:34 on Jun 02,2024, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 7
+project open /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter7_1/openmips_chapter7
+# reading modelsim.ini
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project openmips_chapter7
+vsim work.openmips_min_sopc_tb
+# vsim work.openmips_min_sopc_tb 
+# Start time: 00:37:50 on Jun 02,2024
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:38:28 on Jun 02,2024, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 1
+# Break key hit

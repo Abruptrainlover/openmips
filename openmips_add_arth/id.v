@@ -333,7 +333,7 @@ module id(
 			end
 			`EXE_SLTI:	begin
 				wreg_o <= `WriteEnable;
-				aluop_o <= `EXE_SLTI_OP;
+				aluop_o <= `EXE_SLT_OP;
 				alusel_o <= `EXE_ARITH;
 				reg1_read_o <= 1'b1;
 				reg2_read_o <= 1'b0;
@@ -343,7 +343,7 @@ module id(
 			end
 			`EXE_SLTIU:	begin
 				wreg_o <= `WriteEnable;
-				aluop_o <= `EXE_SLTIU_OP;
+				aluop_o <= `EXE_SLTU_OP;
 				alusel_o <= `EXE_ARITH;
 				reg1_read_o <= 1'b1;
 				reg2_read_o <= 1'b0;
@@ -388,18 +388,20 @@ module id(
 				wreg_o <= `WriteEnable;
 		  		aluop_o <= `EXE_SLL_OP;
 		  		alusel_o <= `EXE_RES_SHIFT;
-		  		reg1_read_o <= 1'b1;
-		  		reg2_read_o <= 1'b0;
-		  		imm <= {16'h0, inst_i[10:6]};
+		  		reg1_read_o <= 1'b0;
+		  		reg2_read_o <= 1'b1;
+		  		//imm <= {16'h0, inst_i[10:6]};
+				imm <= inst_i[10:6];
 		  		wd_o <= inst_i[15:11];
 		  		instvalid <= `InstValid;
 			end	else if(op3 == `EXE_SRL) begin
 				wreg_o <= `WriteEnable;
 				aluop_o <= `EXE_SRL_OP;
 				alusel_o <= `EXE_RES_SHIFT;
-				reg1_read_o <= 1'b1;
-				reg2_read_o <= 1'b0;
-				imm <= {16'h0, inst_i[10:6]};
+				reg1_read_o <= 1'b0;
+				reg2_read_o <= 1'b1;
+				//imm <= {16'h0, inst_i[10:6]};
+				imm <= inst_i[10:6];
 				wd_o <= inst_i[15:11];
 				instvalid <= `InstValid;
 			end	else if(op3 == `EXE_SRA) begin
@@ -425,12 +427,12 @@ module id(
 		end else if((reg1_read_o == 1'b1) && (mem_wreg_i == 1'b1) && (mem_wd_i == reg1_addr_o)) begin
 			reg1_o <= mem_wdata_i;
 		end else if(reg1_read_o == 1'b1) begin
-	  	reg1_o <= reg1_data_i;
-	  end else if(reg1_read_o == 1'b0) begin
-	  	reg1_o <= imm;
-	  end else begin
-	    reg1_o <= `ZeroWord;
-	  end
+	  		reg1_o <= reg1_data_i;
+	  	end else if(reg1_read_o == 1'b0) begin
+	 	 	reg1_o <= imm;
+	  	end else begin
+	  		reg1_o <= `ZeroWord;
+	 	 end
 	end
 	
 	always @ (*) begin
