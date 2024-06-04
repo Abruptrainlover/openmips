@@ -1,0 +1,1882 @@
+# reading modelsim.ini
+# Loading project openmips_add_arth
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 15:27:13 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+add wave -position end  sim:/openmips_min_spoc_tb/clk
+add wave -position end  sim:/openmips_min_spoc_tb/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/ex_mem.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_arth/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_arth/openmips.v Line: 217
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:29:20 on Jun 03,2024, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 6
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+# reading modelsim.ini
+# reading modelsim.ini
+# Loading project openmips_add_madd
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 15:32:48 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex0'.  Expected 27, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 182
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 182
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(182): [TFMPC] - Missing connection for port 'stall'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex_mem0'.  Expected 19, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'hili_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'cnt_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'hili_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'cnt_o'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 238
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 238
+add wave -position end  sim:/openmips_min_spoc_tb/clk
+add wave -position end  sim:/openmips_min_spoc_tb/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_aluop_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_reg1_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_reg2_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg1_data
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg2_data
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg1_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg2_i
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex0'.  Expected 27, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 182
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 182
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(182): [TFMPC] - Missing connection for port 'stall'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex_mem0'.  Expected 19, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'hili_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'cnt_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'hili_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'cnt_o'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 238
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 238
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex0'.  Expected 27, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 182
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 182
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(182): [TFMPC] - Missing connection for port 'stall'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex_mem0'.  Expected 19, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 215
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'hili_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'cnt_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'hili_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(215): [TFMPC] - Missing connection for port 'cnt_o'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 238
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 238
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 20:32:36 on Jun 03,2024, Elapsed time: 4:59:48
+# Errors: 0, Warnings: 13
+# Compile of ex.v was successful.
+# Compile of openmips.v was successful.
+# Compile of pc_reg.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 20:33:11 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex0'.  Expected 27, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 186
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 186
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(186): [TFMPC] - Missing connection for port 'stall'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Error: (vsim-3063) Port 'hilo_o' not found in the connected module (18th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 245
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 245
+# Error loading design
+# End time: 20:33:11 on Jun 03,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 10
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 20:33:22 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex0'.  Expected 27, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 186
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 186
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(186): [TFMPC] - Missing connection for port 'stall'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'ex_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Error: (vsim-3063) Port 'hilo_o' not found in the connected module (18th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 245
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 245
+# Error loading design
+# End time: 20:33:22 on Jun 03,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 9
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 20:41:27 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex0'.  Expected 27, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 186
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v(186): [TFMPC] - Missing connection for port 'stall'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_whilo'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/ex_mem.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Error: (vsim-3063) Port 'hilo_o' not found in the connected module (18th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'whilo_i'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 245
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 245
+# Error loading design
+# End time: 20:41:28 on Jun 03,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 7
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 20:42:33 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# ** Error: (vsim-3063) Port 'hilo_o' not found in the connected module (18th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'whilo_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 245
+# Error loading design
+# End time: 20:42:33 on Jun 03,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 20:44:19 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# ** Error: (vsim-3063) Port 'hilo_o' not found in the connected module (18th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v Line: 219
+# Error loading design
+# End time: 20:44:19 on Jun 03,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v failed with 2 errors.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 1 failed with 2 errors.
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v failed with 2 errors.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 1 failed with 2 errors.
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 20:46:07 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:06:59 on Jun 03,2024, Elapsed time: 0:20:52
+# Errors: 0, Warnings: 4
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:07:11 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run -all
+# ** Note: $stop    : /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_min_spoc_tb.v(19)
+#    Time: 1095 ns  Iteration: 0  Instance: /openmips_min_spoc_tb
+# Break in Module openmips_min_spoc_tb at /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_min_spoc_tb.v line 19
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+quit -sim
+# End time: 21:49:20 on Jun 03,2024, Elapsed time: 0:42:09
+# Errors: 0, Warnings: 1
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:49:33 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_min_spoc_tb.v(19)
+#    Time: 1095 ns  Iteration: 0  Instance: /openmips_min_spoc_tb
+# Break in Module openmips_min_spoc_tb at /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_min_spoc_tb.v line 19
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:22:48 on Jun 03,2024, Elapsed time: 0:33:15
+# Errors: 0, Warnings: 1
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 22:22:59 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/clk
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/rom_data_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/rom_addr_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/rom_ce_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_aluop_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_alusel_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_cnt_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_cnt_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_hilo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_hilo_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg1_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg2_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_wd_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_wd_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_wdata_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_wreg_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_wreg_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_aluop_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_alusel_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_inst_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_pc_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_reg1_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_reg2_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_wd_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_wreg_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_hi_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_lo
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_lo_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_wd_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_wd_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_wdata_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_wdata_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_whilo
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_whilo_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_wreg_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_wreg_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/pc
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg1_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg1_data
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg1_read
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg2_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg2_data
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg2_read
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/stall
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/stall_from_ex
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/stall_from_id
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_hi_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_lo
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_lo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_wd_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_wdata_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_whilo
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_whilo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/wb_wreg_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/whilo_o
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:39:58 on Jun 03,2024, Elapsed time: 0:16:59
+# Errors: 0, Warnings: 1
+# reading modelsim.ini
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project chapter7_2
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim work.openmips_min_sopc_tb 
+# Start time: 22:40:47 on Jun 03,2024
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hi
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+quit -sim
+# End time: 22:42:22 on Jun 03,2024, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 5
+project open /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_add_madd
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# reading modelsim.ini
+# Loading project openmips_add_madd
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 22:56:24 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:20:19 on Jun 03,2024, Elapsed time: 0:23:55
+# Errors: 0, Warnings: 2
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 23:20:29 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 350 ns ###############
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#IMPLICIT-WIRE(lo_o)#186 @ sub-iteration 0
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#ALWAYS#210 @ sub-iteration 1
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#ALWAYS#239 @ sub-iteration 1
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#ALWAYS#314 @ sub-iteration 1
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#ALWAYS#314 @ sub-iteration 2
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#IMPLICIT-WIRE(lo_o)#186 @ sub-iteration 3
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/aluop_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/alusel_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/cnt_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/hi_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/hilo_temp_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/lo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/mem_hi_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/mem_lo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/mem_whilo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/reg1_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/reg2_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/wb_hi_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/wb_lo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/wb_whilo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/wd_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/wreg_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/cnt_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/hi_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/hilo_temp_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/lo_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/stallreq
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/wd_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/wdata_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/whilo_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/wreg_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/arithmeticalout
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/HI
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/hilo_temp
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/hilo_temp1
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/LO
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/logicout
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/movres
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/mulres
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/opdata1_mult
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/opdata2_mult
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/ov_sum
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/reg1_eq_reg2
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/reg1_i_not
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/reg1_lt_reg2
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/reg2_i_mux
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/result_sum
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/shiftres
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/stallreq_for_madd_msub
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:44:48 on Jun 03,2024, Elapsed time: 0:24:19
+# Errors: 0, Warnings: 1
+# Load canceled
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 23:45:03 on Jun 03,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_hilo_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_hilo_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 350 ns ###############
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#IMPLICIT-WIRE(lo_o)#186 @ sub-iteration 0
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#ALWAYS#210 @ sub-iteration 1
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#ALWAYS#239 @ sub-iteration 1
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#ALWAYS#314 @ sub-iteration 1
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#ALWAYS#314 @ sub-iteration 2
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+#   Active process: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/#IMPLICIT-WIRE(lo_o)#186 @ sub-iteration 3
+#     Source: /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips.v:186
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/HI
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/LO
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0/hilo_temp_i
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 350 ns.
+run
+quit -sim
+# End time: 00:23:53 on Jun 04,2024, Elapsed time: 0:38:50
+# Errors: 2, Warnings: 1

@@ -57,19 +57,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	openmips
 
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/ex.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/ex.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ex
+
+Top level modules:
+	ex
+
 } {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/id.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/id.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module id
 
 Top level modules:
 	id
-
-} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/id_ex.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/id_ex.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module id_ex
-
-Top level modules:
-	id_ex
 
 } {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/hilo_reg.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/hilo_reg.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -78,12 +78,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	hilo_reg
 
-} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/if_id.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/if_id.v
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/id_ex.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/id_ex.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module if_id
+-- Compiling module id_ex
 
 Top level modules:
-	if_id
+	id_ex
 
 } {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/inst_rom.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/inst_rom.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -91,5 +91,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	inst_rom
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_arth/if_id.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_arth/if_id.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module if_id
+
+Top level modules:
+	if_id
 
 } {} {}}

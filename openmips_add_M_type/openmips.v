@@ -43,14 +43,14 @@ module openmips(
 	wire[`RegBus] ex_wdata_o;
 	wire[`RegBus] hi_o;
 	wire[`RegBus] lo_o;
-	wire[`RegBus] whilo_o;	
+	wire whilo_o;	
 	//ex/mem output mem input
 	wire mem_wreg_i;
 	wire[`RegAddrBus] mem_wd_i;
 	wire[`RegBus] mem_wdata_i;
 	wire[`RegBus] mem_hi;
 	wire[`RegBus] mem_lo;
-	wire[`RegBus] mem_whilo;
+	wire mem_whilo;
 	//mem output mem/wb input
 	wire mem_wreg_o;
 	wire[`RegAddrBus] mem_wd_o;
