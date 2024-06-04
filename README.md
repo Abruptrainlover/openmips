@@ -35,3 +35,23 @@
 完成arth，其中slti 和sltiu 使用的是 slt和sltu的标识码，因为没有明显区分，所以可以调用，这里需要注意
 
 还有mul指令乘数，被乘数，结果 的正负判断需要注意
+
+## 6.2
+完成ctrl指令，设计MADD，MADDU，MSUB，MSUBU 指令。
+
+## 6.3
+实现MADD，MADDU，MSUB，MSUBU，其中stallreq出现错误，ex中的stallreq忘记赋值导致错误。同时仿真发现MADD，MADDU可行，但是MSUB，MSUBU不可行，modelsim报错LOOP，但是实际不会进入循环（因为没有循环），让人费解
+
+## 6.4
+解决问题，通过计算并未发现问题，通过和作者源代码比较，发现只有
+```
+end else if ((aluop_i == `EXE_MSUB_OP) || (aluop_i == `EXE_MSUBU_OP)) begin
+				whilo_o <= `WriteEnable;
+				hi_o <=hilo_temp1[63:32];
+				lo_o <=hilo_temp1[31:0];
+				end else if ((aluop_i == `EXE_MADD_OP) || (aluop_i == `EXE_MADDU_OP)) begin
+				whilo_o <= `WriteEnable;
+				hi_o <=hilo_temp1[63:32];
+				lo_o <=hilo_temp1[31:0];
+```
+这段代码不同，我之前认为他们可以放在一起，因为他们功能一样，操作一样。现在看来可能是仿真模拟的时候是不一样的，导致错误。（奇怪，先搁置）
