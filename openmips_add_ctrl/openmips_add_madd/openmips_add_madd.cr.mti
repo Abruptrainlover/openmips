@@ -85,18 +85,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ctrl
 
-} {} {}} /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_min_spoc_tb.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_min_spoc_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module openmips_min_spoc_tb
-
-Top level modules:
-	openmips_min_spoc_tb
-
 } {} {}} /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem_wb.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/mem_wb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mem_wb
 
 Top level modules:
 	mem_wb
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_min_spoc_tb.v {1 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_madd/openmips_min_spoc_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module openmips_min_spoc_tb
+
+Top level modules:
+	openmips_min_spoc_tb
 
 } {} {}}
