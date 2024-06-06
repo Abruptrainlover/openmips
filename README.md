@@ -55,3 +55,8 @@ end else if ((aluop_i == `EXE_MSUB_OP) || (aluop_i == `EXE_MSUBU_OP)) begin
 				lo_o <=hilo_temp1[31:0];
 ```
 这段代码不同，我之前认为他们可以放在一起，因为他们功能一样，操作一样。现在看来可能是仿真模拟的时候是不一样的，导致错误。（奇怪，先搁置）
+## 6.5
+完成div.v试商法的设计，拓展testbench的时间。
+
+## 6.6
+实现div，divu指令，添加div，并仿真验证。
