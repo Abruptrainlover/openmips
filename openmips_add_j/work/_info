@@ -1,0 +1,379 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/yzw/Desktop/riscv/openmips_add_ctrl/openmips_add_div
+vctrl
+Z0 !s110 1719932732
+!i10b 1
+!s100 4LNT0zT7MeSUhDAShGlka3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA7zMR0m^J522=in4@Z<Jd2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/yzw/Desktop/riscv/openmips_add_j
+Z4 w1717657600
+8/home/yzw/Desktop/riscv/openmips_add_j/ctrl.v
+F/home/yzw/Desktop/riscv/openmips_add_j/ctrl.v
+!i122 142
+L0 3 19
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1719932732.000000
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/ctrl.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vdiv
+R0
+!i10b 1
+!s100 <W0m]^T^gI3RkhZd:TAQ82
+R1
+Ie=Cd7VijCTX<61gIo^3^?3
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/div.v
+F/home/yzw/Desktop/riscv/openmips_add_j/div.v
+!i122 143
+L0 3 103
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/div.v|
+!i113 1
+R7
+R8
+vex
+R0
+!i10b 1
+!s100 7AC380De19>:hmnEz;5gG1
+R1
+Ij@2X[F2hnQJ_lzf`g@iI[0
+R2
+R3
+w1717731321
+8/home/yzw/Desktop/riscv/openmips_add_j/ex.v
+F/home/yzw/Desktop/riscv/openmips_add_j/ex.v
+!i122 144
+L0 4 425
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/ex.v|
+!i113 1
+R7
+R8
+vex_mem
+R0
+!i10b 1
+!s100 i23mL4XKAkajk6g4FD?^g2
+R1
+IDjKL2^i7jdGZZiUmBT8BM2
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/ex_mem.v
+F/home/yzw/Desktop/riscv/openmips_add_j/ex_mem.v
+!i122 145
+L0 3 62
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/ex_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/ex_mem.v|
+!i113 1
+R7
+R8
+vhilo_reg
+R0
+!i10b 1
+!s100 nUg84Zlz<lZV_g^cz6Pgo0
+R1
+IMIT6>SIh=QR]F8kfH;WLP1
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/hilo_reg.v
+F/home/yzw/Desktop/riscv/openmips_add_j/hilo_reg.v
+!i122 146
+Z9 L0 3 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/hilo_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/hilo_reg.v|
+!i113 1
+R7
+R8
+vid
+R0
+!i10b 1
+!s100 SRD=Y24;VAW[0Na95AfFB1
+R1
+IIHYncSiMK[TK4@[@n;o]11
+R2
+R3
+w1717731218
+8/home/yzw/Desktop/riscv/openmips_add_j/id.v
+F/home/yzw/Desktop/riscv/openmips_add_j/id.v
+!i122 147
+L0 4 716
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/id.v|
+!i113 1
+R7
+R8
+vid_ex
+R0
+!i10b 1
+!s100 9Z]6al@Edi`QgBAoe;K8j0
+R1
+IRFAz=60lm5L5ImkRiL]]b0
+R2
+R3
+w1717731537
+8/home/yzw/Desktop/riscv/openmips_add_j/id_ex.v
+F/home/yzw/Desktop/riscv/openmips_add_j/id_ex.v
+!i122 148
+L0 4 64
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/id_ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/id_ex.v|
+!i113 1
+R7
+R8
+vif_id
+R0
+!i10b 1
+!s100 7:T[VNb=IgVBLd71^W?NN1
+R1
+I_M]C:OfX>0^_WHX;HIK>h3
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/if_id.v
+F/home/yzw/Desktop/riscv/openmips_add_j/if_id.v
+!i122 149
+L0 4 27
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/if_id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/if_id.v|
+!i113 1
+R7
+R8
+vinst_rom
+R0
+!i10b 1
+!s100 gdRCmUF=c>KkoA`N4h3DH2
+R1
+Ij;d6famVVKP6gX==If6>j2
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/inst_rom.v
+F/home/yzw/Desktop/riscv/openmips_add_j/inst_rom.v
+!i122 150
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/inst_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/inst_rom.v|
+!i113 1
+R7
+R8
+vmem
+R0
+!i10b 1
+!s100 ?anXAeY^A0X32PmiF1oNO3
+R1
+I3P[C_YNNZC^Y0_gkEj:`11
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/mem.v
+F/home/yzw/Desktop/riscv/openmips_add_j/mem.v
+!i122 151
+L0 4 43
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/mem.v|
+!i113 1
+R7
+R8
+vmem_wb
+R0
+!i10b 1
+!s100 l_AV3I4ddk2f^o_SJEX?K0
+R1
+IV<k1360kH5Q9`dUA=TC>f1
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/mem_wb.v
+F/home/yzw/Desktop/riscv/openmips_add_j/mem_wb.v
+!i122 152
+L0 4 52
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/mem_wb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/mem_wb.v|
+!i113 1
+R7
+R8
+vopenmips
+R0
+!i10b 1
+!s100 gKHW]<3a1i0oFPc[Nf36B3
+R1
+I[87O6YU8cmEmnPO_Y9H[G3
+R2
+R3
+w1717731590
+8/home/yzw/Desktop/riscv/openmips_add_j/openmips.v
+F/home/yzw/Desktop/riscv/openmips_add_j/openmips.v
+!i122 153
+L0 4 354
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/openmips.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/openmips.v|
+!i113 1
+R7
+R8
+vopenmips_min_spoc
+R0
+!i10b 1
+!s100 UlZ_7`_YE=96;JW<AJcO72
+R1
+IVnCIXDOS?BBMGe4>j3m9N2
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/openmips_min_spoc.v
+F/home/yzw/Desktop/riscv/openmips_add_j/openmips_min_spoc.v
+!i122 154
+L0 3 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/openmips_min_spoc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/openmips_min_spoc.v|
+!i113 1
+R7
+R8
+vopenmips_min_spoc_tb
+R0
+!i10b 1
+!s100 F?kz0=0GTKZ]IHWDE=I;C1
+R1
+IHdo0]T07EomgBiGK^g@n92
+R2
+R3
+R4
+8/home/yzw/Desktop/riscv/openmips_add_j/openmips_min_spoc_tb.v
+F/home/yzw/Desktop/riscv/openmips_add_j/openmips_min_spoc_tb.v
+!i122 155
+L0 3 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/openmips_min_spoc_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/openmips_min_spoc_tb.v|
+!i113 1
+R7
+R8
+vpc_reg
+R0
+!i10b 1
+!s100 NO7]l2e[bP<NBaCRINdL`2
+R1
+IVK7e<5kg[F1zZVL9[OD8z0
+R2
+R3
+w1717659531
+8/home/yzw/Desktop/riscv/openmips_add_j/pc_reg.v
+F/home/yzw/Desktop/riscv/openmips_add_j/pc_reg.v
+!i122 156
+L0 3 34
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/pc_reg.v|
+!i113 1
+R7
+R8
+vregfile
+R0
+!i10b 1
+!s100 K3j0a2FJN2^>ToIWLOWXQ1
+R1
+I4zZTZTcAOjIA;>LJi3n152
+R2
+R3
+w1717730749
+8/home/yzw/Desktop/riscv/openmips_add_j/regfile.v
+F/home/yzw/Desktop/riscv/openmips_add_j/regfile.v
+!i122 157
+L0 4 62
+R5
+r1
+!s85 0
+31
+R6
+!s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_j/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_j/regfile.v|
+!i113 1
+R7
+R8

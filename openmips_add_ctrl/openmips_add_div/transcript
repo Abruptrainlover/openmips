@@ -1,0 +1,508 @@
+# Loading project div
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project add_j
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 11:24:26 on Jun 07,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# ** Error: (vsim-3033) Instantiation of 'regfile' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 173
+#         Searched libraries:
+#             /home/yzw/Desktop/riscv/openmips_add_j/work
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Error loading design
+# End time: 11:24:26 on Jun 07,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 11:26:24 on Jun 07,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# ** Error: (vsim-3063) Port 'is_in_delaydlot_i' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 135
+# ** Error: (vsim-3063) Port 'is_in_delaydlot_o' not found in the connected module (25th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 135
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'id_ex0'.  Expected 21, found 19.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'next_inst_in_delayslot_i' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'is_in_delaydlot_o' not found in the connected module (19th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'next_inst_delayslot_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'ex_link_addr'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'ex_is_in_delaydlot'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'is_in_delayslot_o'.
+# Error loading design
+# End time: 11:26:24 on Jun 07,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 8
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 11:32:28 on Jun 07,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# ** Error: (vsim-3063) Port 'is_in_delaydsot_i' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 135
+# ** Error: (vsim-3063) Port 'is_in_delaydslot_o' not found in the connected module (25th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 135
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'id_ex0'.  Expected 21, found 19.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'next_inst_in_delayslot_i' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'is_in_delaydlot_o' not found in the connected module (19th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'next_inst_delayslot_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'ex_link_addr'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'ex_is_in_delaydlot'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'is_in_delayslot_o'.
+# Error loading design
+# End time: 11:32:28 on Jun 07,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 7
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 11:33:45 on Jun 07,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# ** Error: (vsim-3063) Port 'is_in_delaydsot_i' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 135
+# ** Error: (vsim-3063) Port 'is_in_delaydslot_o' not found in the connected module (25th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 135
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'id_ex0'.  Expected 21, found 19.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'next_inst_in_delayslot_i' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'is_in_delaydlot_o' not found in the connected module (19th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'next_inst_delayslot_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'ex_link_addr'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'ex_is_in_delaydlot'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'is_in_delayslot_o'.
+# Error loading design
+# End time: 11:33:45 on Jun 07,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 6
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 11:34:03 on Jun 07,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'id_ex0'.  Expected 21, found 19.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'next_inst_in_delayslot_i' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'is_in_delaydlot_o' not found in the connected module (19th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'next_inst_delayslot_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'ex_link_addr'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'ex_is_in_delaydlot'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_j/openmips.v(188): [TFMPC] - Missing connection for port 'is_in_delayslot_o'.
+# Error loading design
+# End time: 11:34:03 on Jun 07,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 7
+# Load canceled
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v failed with 1 errors.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 1 failed with 1 error.
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 11:39:07 on Jun 07,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# ** Error: (vsim-3063) Port 'is_in_delaydlot_o' not found in the connected module (19th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'ex_is_in_delaydslot' not found in the connected module (21st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 188
+# ** Error: (vsim-3063) Port 'is_in_delaydlot_i' not found in the connected module (20th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_j/openmips.v Line: 216
+# Error loading design
+# End time: 11:39:07 on Jun 07,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 3
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 11:39:57 on Jun 07,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/clk
+add wave -position end  sim:/openmips_min_spoc_tb/rst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/pc
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_rom_0/rom[1]
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_rom_0/rom[2]
+# End time: 13:15:46 on Jun 07,2024, Elapsed time: 1:35:49
+# Errors: 0, Warnings: 3

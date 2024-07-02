@@ -1,0 +1,292 @@
+# Loading project add_j
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 23:05:38 on Jul 02,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
