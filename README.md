@@ -60,3 +60,6 @@ end else if ((aluop_i == `EXE_MSUB_OP) || (aluop_i == `EXE_MSUBU_OP)) begin
 
 ## 6.6
 实现div，divu指令，添加div，并仿真验证。
+
+## 7.2
+实现转移指令j b，通过延迟槽实现，并仿真验证。
