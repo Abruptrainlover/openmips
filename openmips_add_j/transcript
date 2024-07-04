@@ -1,4 +1,70 @@
 # Loading project add_j
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project openmips_loadstore
+# Compile of ctrl.v was successful with warnings.
+# Compile of defines.v was successful with warnings.
+# Compile of div.v was successful with warnings.
+# Compile of ex.v was successful with warnings.
+# Compile of ex_mem.v was successful with warnings.
+# Compile of hilo_reg.v was successful with warnings.
+# Compile of id.v was successful with warnings.
+# Compile of id_ex.v was successful with warnings.
+# Compile of if_id.v was successful with warnings.
+# Compile of inst_rom.v was successful with warnings.
+# Compile of mem.v was successful with warnings.
+# Compile of mem_wb.v was successful with warnings.
+# Compile of openmips.v was successful with warnings.
+# Compile of openmips_min_spoc.v was successful with warnings.
+# Compile of openmips_min_spoc_tb.v was successful with warnings.
+# Compile of pc_reg.v was successful with warnings.
+# Compile of regfile.v was successful with warnings.
+# 17 compiles, 0 failed with no errors.
+# Project file /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Load canceled
+# Compile of ctrl.v was successful with warnings.
+# Compile of defines.v was successful with warnings.
+# Compile of div.v was successful with warnings.
+# Compile of ex.v was successful with warnings.
+# Compile of ex_mem.v was successful with warnings.
+# Compile of hilo_reg.v was successful with warnings.
+# Compile of id.v was successful with warnings.
+# Compile of id_ex.v was successful with warnings.
+# Compile of if_id.v was successful with warnings.
+# Compile of inst_rom.v was successful with warnings.
+# Compile of mem.v was successful with warnings.
+# Compile of mem_wb.v was successful with warnings.
+# Compile of openmips.v was successful with warnings.
+# Compile of openmips_min_spoc.v was successful with warnings.
+# Compile of openmips_min_spoc_tb.v was successful with warnings.
+# Compile of pc_reg.v was successful with warnings.
+# Compile of regfile.v was successful with warnings.
+# 17 compiles, 0 failed with no errors.
+# Project file /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Compile of ctrl.v was successful with warnings.
+# Compile of defines.v was successful with warnings.
+# Compile of div.v was successful with warnings.
+# Compile of ex.v was successful with warnings.
+# Compile of ex_mem.v was successful with warnings.
+# Compile of hilo_reg.v was successful with warnings.
+# Compile of id.v was successful with warnings.
+# Compile of id_ex.v was successful with warnings.
+# Compile of if_id.v was successful with warnings.
+# Compile of inst_rom.v was successful with warnings.
+# Compile of mem.v was successful with warnings.
+# Compile of mem_wb.v was successful with warnings.
+# Compile of openmips.v was successful with warnings.
+# Compile of openmips_min_spoc.v was successful with warnings.
+# Compile of openmips_min_spoc_tb.v was successful with warnings.
+# Compile of pc_reg.v was successful with warnings.
+# Compile of regfile.v was successful with warnings.
+# 17 compiles, 0 failed with no errors.
+# Project file /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf is write protected, data cannot be saved.
+# Unable to save project.
+cd /home/yzw/Desktop/riscv/openmips_add_j
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project openmips_load_store
 # Compile of ctrl.v was successful.
 # Compile of defines.v was successful.
 # Compile of div.v was successful.
@@ -17,280 +83,3 @@
 # Compile of pc_reg.v was successful.
 # Compile of regfile.v was successful.
 # 17 compiles, 0 failed with no errors.
-vsim work.openmips_min_spoc_tb
-# vsim work.openmips_min_spoc_tb 
-# Start time: 23:05:38 on Jul 02,2024
-# Loading work.openmips_min_spoc_tb
-# Loading work.openmips_min_spoc
-# Loading work.openmips
-# Loading work.pc_reg
-# Loading work.if_id
-# Loading work.id
-# Loading work.regfile
-# Loading work.id_ex
-# Loading work.ex
-# Loading work.ex_mem
-# Loading work.mem
-# Loading work.mem_wb
-# Loading work.hilo_reg
-# Loading work.ctrl
-# Loading work.div
-# Loading work.inst_rom
-add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/hi
-add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/lo
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Break key hit
-quit -sim
-# End time: 23:37:59 on Jul 02,2024, Elapsed time: 0:32:21
-# Errors: 0, Warnings: 1

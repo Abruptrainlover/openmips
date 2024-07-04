@@ -1,0 +1,150 @@
+/home/yzw/Desktop/riscv/openmips_add_loadstore/hilo_reg.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/hilo_reg.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module hilo_reg
+
+Top level modules:
+	hilo_reg
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/id_ex.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/id_ex.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module id_ex
+
+Top level modules:
+	id_ex
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/if_id.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/if_id.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module if_id
+
+Top level modules:
+	if_id
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/inst_rom.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/inst_rom.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module inst_rom
+
+Top level modules:
+	inst_rom
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/ctrl.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/ctrl.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/regfile.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/regfile.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/defines.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/defines.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc_tb.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc_tb.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module openmips_min_spoc_tb
+
+Top level modules:
+	openmips_min_spoc_tb
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/mem.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/mem.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/mem_wb.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/mem_wb.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem_wb
+
+Top level modules:
+	mem_wb
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/pc_reg.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/pc_reg.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc_reg
+
+Top level modules:
+	pc_reg
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module openmips_min_spoc
+
+Top level modules:
+	openmips_min_spoc
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module openmips
+
+Top level modules:
+	openmips
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/div.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/div.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module div
+
+Top level modules:
+	div
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/ex_mem.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/ex_mem.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ex_mem
+
+Top level modules:
+	ex_mem
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/ex.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/ex.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ex
+
+Top level modules:
+	ex
+
+} {} {}} /home/yzw/Desktop/riscv/openmips_add_loadstore/id.v {2 {vlog -work work -stats=none /home/yzw/Desktop/riscv/openmips_add_loadstore/id.v
+** Warning: (vlog-14) Failed to open "/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module id
+
+Top level modules:
+	id
+
+} {} {}}
