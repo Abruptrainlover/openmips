@@ -58,7 +58,8 @@ module mem(
 			whilo_o <= whilo_i;
 			mem_we <= `WriteDisable;
 			mem_sel_o <= 4'b1111;
-			mem_ce_o <= `ChipEnable;
+			mem_ce_o <= `ChipDisable;
+			mem_addr_o <= `ZeroWord;
 			case(aluop_i)
 				`EXE_LB_OP: begin
 					mem_we <= `WriteDisable;
@@ -194,7 +195,7 @@ module mem(
 							wdata_o <= {reg2_i[31:24],mem_data_i[31:8]};
 						end
 						2'b11: begin
-							wdata_o <= mem_data_i[31:0];
+							wdata_o <= mem_data_i;
 						end
 						default: begin
 							wdata_o <= `ZeroWord;

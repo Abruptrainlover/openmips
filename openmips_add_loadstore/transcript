@@ -21,7 +21,7 @@
 # 18 compiles, 0 failed with no errors.
 vsim work.openmips_min_spoc_tb
 # vsim work.openmips_min_spoc_tb 
-# Start time: 02:39:02 on Jul 08,2024
+# Start time: 23:54:46 on Jul 09,2024
 # Loading work.openmips_min_spoc_tb
 # Loading work.openmips_min_spoc
 # Loading work.openmips
@@ -39,30 +39,45 @@ vsim work.openmips_min_spoc_tb
 # Loading work.div
 # Loading work.inst_rom
 # Loading work.data_ram
+run
 add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
 add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_i
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
 add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 run
 run
 run
@@ -91,19 +106,6 @@ run
 run
 run
 run
-restart
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
 run
 run
 run
@@ -115,9 +117,8 @@ run
 run
 run
 quit -sim
-# End time: 02:50:19 on Jul 08,2024, Elapsed time: 0:11:17
+# End time: 00:23:05 on Jul 10,2024, Elapsed time: 0:28:19
 # Errors: 0, Warnings: 1
-# Load canceled
 # Compile of ctrl.v was successful.
 # Compile of defines.v was successful.
 # Compile of div.v was successful.
@@ -139,7 +140,7 @@ quit -sim
 # 18 compiles, 0 failed with no errors.
 vsim work.openmips_min_spoc_tb
 # vsim work.openmips_min_spoc_tb 
-# Start time: 02:50:32 on Jul 08,2024
+# Start time: 00:23:17 on Jul 10,2024
 # Loading work.openmips_min_spoc_tb
 # Loading work.openmips_min_spoc
 # Loading work.openmips
@@ -157,9 +158,24 @@ vsim work.openmips_min_spoc_tb
 # Loading work.div
 # Loading work.inst_rom
 # Loading work.data_ram
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/inst_addr
 add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
 add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_i
 add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 run
 run
 run
@@ -181,7 +197,151 @@ run
 run
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-add wave -position end  /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/regfile1/regs
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:39:39 on Jul 10,2024, Elapsed time: 0:16:22
+# Errors: 0, Warnings: 1
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 00:39:46 on Jul 10,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+onerror {resume}
+#  Warning: onerror command for use within macro
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -label rst /openmips_min_sopc_tb/openmips_min_sopc0/rst
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/rst'.
+add wave -noupdate -label clk /openmips_min_sopc_tb/openmips_min_sopc0/clk
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/clk'.
+add wave -noupdate -label if_pc -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/if_pc
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/if_pc'.
+add wave -noupdate -label hilo_reg0/hi_o -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/hi_o
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/hi_o'.
+add wave -noupdate -label hilo_reg0/lo_o -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/lo_o
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/lo_o'.
+add wave -noupdate -label if_inst -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/if_inst
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/if_inst'.
+add wave -noupdate -label id_inst -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/id_inst
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/id_inst'.
+add wave -noupdate -label id_reg1 -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/id_reg1
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/id_reg1'.
+add wave -noupdate -label id_reg2 -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/id_reg2
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/id_reg2'.
+add wave -noupdate -label id_alusel /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/id_alusel
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/id_alusel'.
+add wave -noupdate -label id_aluop /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/id_aluop
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/id_aluop'.
+add wave -noupdate -format Literal -label mem_wd /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/ex_wreg
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/ex_wreg'.
+add wave -noupdate -label ex_wd /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/ex_wd
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_ex0/ex_wd'.
+add wave -noupdate -label ex_wreg /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0/ex_wreg
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0/ex_wreg'.
+add wave -noupdate -label ex_wdata -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0/ex_wdata
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0/ex_wdata'.
+add wave -noupdate -label ex_wd /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0/ex_wd
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0/ex_wd'.
+add wave -noupdate -label mem_wreg /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/mem_wreg
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/mem_wreg'.
+add wave -noupdate -label mem_wdata -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/mem_wdata
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/mem_wdata'.
+add wave -noupdate -label mem_wd /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/mem_wd
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/mem_wd'.
+add wave -noupdate -label wb_wreg -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/wb_wreg
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/wb_wreg'.
+add wave -noupdate -label wb_wdata -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/wb_wdata
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/wb_wdata'.
+add wave -noupdate -label wb_wd -radix hexadecimal /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/wb_wd
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wb0/wb_wd'.
+add wave -noupdate -label regs -childformat {{{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[0]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[1]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[3]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[4]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[5]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[6]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[7]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[8]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[9]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[10]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[11]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[12]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[13]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[14]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[15]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[16]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[17]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[18]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[19]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[20]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[21]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[22]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[23]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[24]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[25]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[26]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[27]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[28]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[29]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[30]} -radix hexadecimal} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[31]} -radix hexadecimal}} -expand -subitemconfig {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[0]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[1]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[3]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[4]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[5]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[6]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[7]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[8]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[9]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[10]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[11]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[12]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[13]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[14]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[15]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[16]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[17]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[18]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[19]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[20]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[21]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[22]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[23]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[24]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[25]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[26]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[27]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[28]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[29]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[30]} {-height 15 -radix hexadecimal} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[31]} {-height 15 -radix hexadecimal}} /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs
+# ** UI-Msg: (vish-4014) No objects found matching '/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs'.
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {542058 ps} 0}
+configure wave -namecolwidth 127
+configure wave -valuecolwidth 39
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {281454 ps} {648230 ps}
+
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_aluop
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_reg2
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_sel_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 run
 run
 run
@@ -206,9 +366,332 @@ run
 run
 run
 restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg2_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_reg2_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_reg2_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_reg2
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg2_data
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 quit -sim
-# End time: 03:04:54 on Jul 08,2024, Elapsed time: 0:14:22
+# End time: 01:25:21 on Jul 10,2024, Elapsed time: 0:45:35
 # Errors: 0, Warnings: 1
+# reading modelsim.ini
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project load_store1
+# reading /home/yzw/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project loadstore2
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim work.openmips_min_sopc_tb 
+# Start time: 01:27:39 on Jul 10,2024
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/openmips.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0 File: /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/openmips_min_sopc.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/mem.v(67).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0 File: /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/openmips.v Line: 375
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/mem_addr_i
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/mem_ce_i
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/mem_data_i
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/mem_sel_i
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/mem_data_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg2_i
+add wave -position end  sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_aluop_i
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 01:34:33 on Jul 10,2024, Elapsed time: 0:06:54
+# Errors: 0, Warnings: 9
+cd /home/yzw/Desktop/riscv/openmips_add_loadstore
+# reading modelsim.ini
+# reading modelsim.ini
+cd /home/yzw/Desktop/riscv/openmips_add_loadstore
+# reading modelsim.ini
+project open /home/yzw/Desktop/riscv/openmips_add_loadstore/loadstore
+# Loading project loadstore
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v failed with 1 errors.
+# Compile of data_ram.v was successful.
+# 18 compiles, 1 failed with 1 error.
 # Compile of ctrl.v was successful.
 # Compile of defines.v was successful.
 # Compile of div.v was successful.
@@ -230,7 +713,7 @@ quit -sim
 # 18 compiles, 0 failed with no errors.
 vsim work.openmips_min_spoc_tb
 # vsim work.openmips_min_spoc_tb 
-# Start time: 03:05:06 on Jul 08,2024
+# Start time: 01:54:44 on Jul 10,2024
 # Loading work.openmips_min_spoc_tb
 # Loading work.openmips_min_spoc
 # Loading work.openmips
@@ -248,9 +731,120 @@ vsim work.openmips_min_spoc_tb
 # Loading work.div
 # Loading work.inst_rom
 # Loading work.data_ram
-add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_aluop
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_addr
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_reg2
 add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_i
 add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_aluop
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem_wdata_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
 run
 run
 run
@@ -293,5 +887,100 @@ run
 run
 run
 quit -sim
-# End time: 03:17:09 on Jul 08,2024, Elapsed time: 0:12:03
-# Errors: 0, Warnings: 2
+# End time: 02:04:12 on Jul 10,2024, Elapsed time: 0:09:28
+# Errors: 0, Warnings: 1
+project open /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/loadstore2
+# reading modelsim.ini
+# reading modelsim.ini
+# Loading project loadstore2
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim work.openmips_min_sopc_tb 
+# Start time: 02:04:35 on Jul 10,2024
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/openmips.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0 File: /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/openmips_min_sopc.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/mem.v(67).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0 File: /home/yzw/Desktop/Examples-in-book-write-your-own-cpu/Code/Chapter9_1/openmips.v Line: 375
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

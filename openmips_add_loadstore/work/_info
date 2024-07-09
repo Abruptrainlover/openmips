@@ -10,7 +10,7 @@ z2
 cModel Technology
 d/home/yzw/Desktop/riscv/openmips_add_j
 vctrl
-Z0 !s110 1720379100
+Z0 !s110 1720547679
 !i10b 1
 !s100 4LNT0zT7MeSUhDAShGlka3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 d/home/yzw/Desktop/riscv/openmips_add_loadstore
 Z4 w1719996388
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/ctrl.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/ctrl.v
-!i122 263
+!i122 330
 L0 3 19
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1720379100.000000
+Z6 !s108 1720547679.000000
 !s107 defines.v|/home/yzw/Desktop/riscv/openmips_add_loadstore/ctrl.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/yzw/Desktop/riscv/openmips_add_loadstore/ctrl.v|
 !i113 1
@@ -35,15 +35,15 @@ Z8 tCvgOpt 0
 vdata_ram
 R0
 !i10b 1
-!s100 nmYh?IK__0]jEPV6_Go0d0
+!s100 @R`cXCRX2kD2YXW0?2JBI2
 R1
-IggnGVCkBGzkY4feO=1nYe2
+Ih2?lMiKhSWlFXM=DM5oSc2
 R2
 R3
-w1720379083
+w1720543100
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/data_ram.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/data_ram.v
-!i122 279
+!i122 346
 L0 3 53
 R5
 r1
@@ -66,7 +66,7 @@ R3
 R4
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/div.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/div.v
-!i122 264
+!i122 331
 L0 3 103
 R5
 r1
@@ -89,7 +89,7 @@ R3
 w1720097785
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/ex.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/ex.v
-!i122 265
+!i122 332
 L0 4 434
 R5
 r1
@@ -112,7 +112,7 @@ R3
 w1720098234
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/ex_mem.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/ex_mem.v
-!i122 266
+!i122 333
 L0 3 77
 R5
 r1
@@ -135,7 +135,7 @@ R3
 R4
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/hilo_reg.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/hilo_reg.v
-!i122 267
+!i122 334
 Z9 L0 3 22
 R5
 r1
@@ -150,16 +150,16 @@ R8
 vid
 R0
 !i10b 1
-!s100 3mX3b9Hf3deSFYjgcOa>e2
+!s100 09H43z0zQ49f;h_^6o]Ah2
 R1
-IZAb[CFHmJ9Jc0eDYbO@mO1
+I13C[B4IW?S2_W8<Zmn>5U2
 R2
 R3
-w1720336884
+w1720547452
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/id.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/id.v
-!i122 268
-L0 4 822
+!i122 335
+L0 4 846
 R5
 r1
 !s85 0
@@ -181,7 +181,7 @@ R3
 w1720079292
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/id_ex.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/id_ex.v
-!i122 269
+!i122 336
 L0 4 71
 R5
 r1
@@ -204,7 +204,7 @@ R3
 R4
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/if_id.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/if_id.v
-!i122 270
+!i122 337
 L0 4 27
 R5
 r1
@@ -227,7 +227,7 @@ R3
 R4
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/inst_rom.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/inst_rom.v
-!i122 271
+!i122 338
 R9
 R5
 r1
@@ -242,16 +242,16 @@ R8
 vmem
 R0
 !i10b 1
-!s100 >1:Ck3VafRB]o6?]2DNWc1
+!s100 IZH6bAI8IJCZ?>dNg4Y;B1
 R1
-IZTL?_m?^VE9b:>c41ViEk3
+IdV17jB7V[SkU:[U1=V<[c0
 R2
 R3
-w1720376868
+w1720542946
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/mem.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/mem.v
-!i122 272
-L0 4 307
+!i122 339
+L0 4 308
 R5
 r1
 !s85 0
@@ -273,7 +273,7 @@ R3
 R4
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/mem_wb.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/mem_wb.v
-!i122 273
+!i122 340
 L0 4 52
 R5
 r1
@@ -288,15 +288,15 @@ R8
 vopenmips
 R0
 !i10b 1
-!s100 9IP7a18?QF;o[UKU6>:>H3
+!s100 KY8WT61gmlmjg_ZT_dL=N0
 R1
-I6OZ]bMDiS^@;RGU<mCgj]2
+I9oz]bdUR;@hXc^DLc>FXM3
 R2
 R3
-w1720378210
+w1720547572
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v
-!i122 274
+!i122 341
 L0 4 393
 R5
 r1
@@ -319,7 +319,7 @@ R3
 w1720271319
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v
-!i122 275
+!i122 342
 L0 3 42
 R5
 r1
@@ -342,7 +342,7 @@ R3
 R4
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc_tb.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc_tb.v
-!i122 276
+!i122 343
 L0 3 28
 R5
 r1
@@ -365,7 +365,7 @@ R3
 R4
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/pc_reg.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/pc_reg.v
-!i122 277
+!i122 344
 L0 3 34
 R5
 r1
@@ -385,10 +385,10 @@ R1
 IPL?0nJ;PiYU<h80?_1R@o3
 R2
 R3
-R4
+w1720547675
 8/home/yzw/Desktop/riscv/openmips_add_loadstore/regfile.v
 F/home/yzw/Desktop/riscv/openmips_add_loadstore/regfile.v
-!i122 278
+!i122 345
 L0 4 62
 R5
 r1

@@ -32,7 +32,7 @@ module data_ram(
             end
         end
         else begin
-            //data_out <= `ZeroWord;
+            data_out <= `ZeroWord;
         end
     end
     //read
