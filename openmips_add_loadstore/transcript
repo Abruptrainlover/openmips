@@ -1,0 +1,297 @@
+# reading modelsim.ini
+# Loading project loadstore
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 02:39:02 on Jul 08,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_i
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_o
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 02:50:19 on Jul 08,2024, Elapsed time: 0:11:17
+# Errors: 0, Warnings: 1
+# Load canceled
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 02:50:32 on Jul 08,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position end  /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/regfile1/regs
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+quit -sim
+# End time: 03:04:54 on Jul 08,2024, Elapsed time: 0:14:22
+# Errors: 0, Warnings: 1
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 03:05:06 on Jul 08,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 03:17:09 on Jul 08,2024, Elapsed time: 0:12:03
+# Errors: 0, Warnings: 2

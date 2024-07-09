@@ -1,0 +1,653 @@
+project open /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore
+# Project file /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_loadstore.mpf was not found.
+# Unable to open project.
+# reading modelsim.ini
+# Loading project loadstore
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 15:04:53 on Jul 06,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'id0'.  Expected 29, found 28.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 135
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(135): [TFMPC] - Missing connection for port 'inst_o'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'id_ex0'.  Expected 23, found 21.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 188
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(188): [TFMPC] - Missing connection for port 'id_inst'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(188): [TFMPC] - Missing connection for port 'ex_inst'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex0'.  Expected 38, found 34.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 216
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(216): [TFMPC] - Missing connection for port 'inst_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(216): [TFMPC] - Missing connection for port 'mem_addr_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(216): [TFMPC] - Missing connection for port 'reg2_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(216): [TFMPC] - Missing connection for port 'aluop_o'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex_mem0'.  Expected 25, found 19.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 260
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(260): [TFMPC] - Missing connection for port 'ex_mem_addr'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(260): [TFMPC] - Missing connection for port 'ex_reg2'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(260): [TFMPC] - Missing connection for port 'ex_aluop'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(260): [TFMPC] - Missing connection for port 'mem_mem_addr'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(260): [TFMPC] - Missing connection for port 'mem_reg2'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(260): [TFMPC] - Missing connection for port 'mem_aluop'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mem0'.  Expected 22, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/mem0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 286
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'mem_addr_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'reg2_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'aluop_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'mem_data_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'mem_addr_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'mem_data_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'mem_we_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'mem_sel_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(286): [TFMPC] - Missing connection for port 'mem_ce_o'.
+quit -sim
+# End time: 15:05:13 on Jul 06,2024, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 32
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v failed with 6 errors.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 1 failed with 6 errors.
+# Compile of openmips.v failed with 6 errors.
+# Compile of id_ex.v was successful.
+# Load canceled
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v failed with 6 errors.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 1 failed with 6 errors.
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:02:30 on Jul 06,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# ** Error: (vsim-3033) Instantiation of 'data_ram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v Line: 29
+#         Searched libraries:
+#             /home/yzw/Desktop/riscv/openmips_add_loadstore/work
+# Error loading design
+# End time: 21:02:30 on Jul 06,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:04:32 on Jul 06,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'openmips_0'.  Expected 11, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v Line: 16
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v(16): [TFMPC] - Missing connection for port 'ram_data_i'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v(16): [TFMPC] - Missing connection for port 'ram_data_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v(16): [TFMPC] - Missing connection for port 'ram_addr_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v(16): [TFMPC] - Missing connection for port 'ram_we_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v(16): [TFMPC] - Missing connection for port 'ram_ce_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips_min_spoc.v(16): [TFMPC] - Missing connection for port 'ram_sel_o'.
+# ** Error: (vsim-3063) Port 'inst_i' not found in the connected module (13th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/id_ex0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 200
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex_mem0'.  Expected 25, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 280
+# ** Error: (vsim-3063) Port 'mem_addr' not found in the connected module (20th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 280
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(280): [TFMPC] - Missing connection for port 'ex_mem_addr'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(280): [TFMPC] - Missing connection for port 'ex_reg2'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(280): [TFMPC] - Missing connection for port 'ex_aluop'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v(280): [TFMPC] - Missing connection for port 'mem_mem_addr'.
+# Error loading design
+# End time: 21:04:32 on Jul 06,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 15
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:16:29 on Jul 06,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'reg2_o'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_loadstore/ex.v(55).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_loadstore/openmips.v Line: 230
+quit -sim
+# End time: 21:19:36 on Jul 06,2024, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 3
+# Load canceled
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:19:47 on Jul 06,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ram_data_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_inst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:33:17 on Jul 06,2024, Elapsed time: 0:13:30
+# Errors: 0, Warnings: 2
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:50:57 on Jul 06,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ram_addr_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ram_data_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ram_sel_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:21:29 on Jul 07,2024, Elapsed time: 17:30:32
+# Errors: 0, Warnings: 2
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 15:21:41 on Jul 07,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg1_data
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/reg2_data
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ram_addr_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ram_data_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 02:10:01 on Jul 08,2024, Elapsed time: 10:48:20
+# Errors: 0, Warnings: 2
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of data_ram.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 02:28:04 on Jul 08,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.inst_rom
+# Loading work.data_ram
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_data_i
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/ram_addr_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 02:38:37 on Jul 08,2024, Elapsed time: 0:10:33
+# Errors: 0, Warnings: 2

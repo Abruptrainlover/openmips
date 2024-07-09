@@ -89,7 +89,7 @@ module id(
 			next_inst_in_delayslot_o <= `NotInDelaySlot;
 			branch_flag_o <= `NotBranch;
 		  case (op)
-		  	`EXE_SPECIAL_INST:	begin
+			`EXE_SPECIAL_INST:	begin
 				case(op2)
 				5'b00000:	begin
 					case(op3)
@@ -639,7 +639,9 @@ module id(
 					reg2_read_o <= 1'b1;
 					instvalid <= `InstValid;
 				end
-				`EXE_LB:begin
+			endcase
+			end
+			`EXE_LB:begin
 					wreg_o <= `WriteEnable;
 					aluop_o <= `EXE_LB_OP;
 					alusel_o <= `EXE_RES_LOAD_STORE;
@@ -743,8 +745,6 @@ module id(
 					reg2_read_o <= 1'b1;
 					instvalid <= `InstValid;
 				end
-			endcase
-			end
 		    default:			begin
 		    end
 		  endcase	
