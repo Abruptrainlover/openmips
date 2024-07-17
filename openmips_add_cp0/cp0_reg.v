@@ -30,35 +30,47 @@ module cp0_reg (
             epc_o <= `ZeroWord;
             config_o <= 32'b00000000000000001000000000000000;
             prid_o <= 32'b00000000010011000000000100000010;
-            timer_int_o <= `In;
+            timer_int_o <= `InterruptNotAssert;
         end
         else begin
-            if(we_i == 1) begin
+            count_o <= count_o + 1;
+            cause_o[15:10] < = int_i;
+            if(compare_o != `ZeroWord && count_o == compare_o) begin
+                timer_int_o <= `InterruptAssert;
+            end
+            if(we_i == `WriteEnable) begin
                 case(waddr_i)
-                    5'b00000: data_o <= data_i;
-                    5'b00001: count_o <= data_i;
-                    5'b00010: compare_o <= data_i;
-                    5'b00011: status_o <= data_i;
-                    5'b00100: cause_o <= data_i;
-                    5'b00101: epc_o <= data_i;
-                    5'b00110: config_o <= data_i;
-                    5'b00111: prid_o <= data_i;
-                    default: data_o <= data_o;
+                    `CP0_REG_COUNT: count_o <= data_i;
+                    `CP0_REG_COMPARE: begin
+                        compare_o <= data_i;
+                        timer_int_o <= `InterruptNotAssert;
+                    end
+                    `CP0_REG_STATUS: status_o <= data_i;
+                    `CP0_REG_EPC: epc_o <= data_i;
+                    `CP0_REG_CAUSE: begin
+                        cause_o[9:8] <= data_i[9:8];
+                        cause_o[23] <= data_i[23];
+                        cause_o[22] <= data_i[22];
+                    end
                 endcase
             end
-            else begin
-                case(raddr_i)
-                    5'b00000: data_o <= data_o;
-                    5'b00001: data_o <= count_o;
-                    5'b00010: data_o <= compare_o;
-                    5'b00011: data_o <= status_o;
-                    5'b00100: data_o <= cause_o;
-                    5'b00101: data_o <= epc_o;
-                    5'b00110: data_o <= config_o;
-                    5'b00111: data_o <= prid_o;
-                    default: data_o <= data_o;
-                endcase
-            end
+        end
+    end
+    always @(*) begin
+        if(rst == `RstEnable) begin
+            data_o = `ZeroWord;
+        end
+        else begin
+            case(raddr_i)
+                `CP0_REG_COUNT: data_o = count_o;
+                `CP0_REG_COMPARE: data_o = compare_o;
+                `CP0_REG_STATUS: data_o = status_o;
+                `CP0_REG_CAUSE: data_o = cause_o;
+                `CP0_REG_EPC: data_o = epc_o;
+                `CP0_REG_CONFIG: data_o = config_o;
+                `CP0_REG_PRID: data_o = prid_o;
+                default: begin end
+            endcase
         end
     end
 endmodule
