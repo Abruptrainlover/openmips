@@ -34,7 +34,7 @@ module cp0_reg (
         end
         else begin
             count_o <= count_o + 1;
-            cause_o[15:10] < = int_i;
+            cause_o[15:10] <= int_i;
             if(compare_o != `ZeroWord && count_o == compare_o) begin
                 timer_int_o <= `InterruptAssert;
             end
@@ -62,13 +62,13 @@ module cp0_reg (
         end
         else begin
             case(raddr_i)
-                `CP0_REG_COUNT: data_o = count_o;
-                `CP0_REG_COMPARE: data_o = compare_o;
-                `CP0_REG_STATUS: data_o = status_o;
-                `CP0_REG_CAUSE: data_o = cause_o;
-                `CP0_REG_EPC: data_o = epc_o;
-                `CP0_REG_CONFIG: data_o = config_o;
-                `CP0_REG_PRID: data_o = prid_o;
+                `CP0_REG_COUNT: data_o <= count_o;
+                `CP0_REG_COMPARE: data_o <= compare_o;
+                `CP0_REG_STATUS: data_o <= status_o;
+                `CP0_REG_CAUSE: data_o <= cause_o;
+                `CP0_REG_EPC: data_o <= epc_o;
+                `CP0_REG_CONFIG: data_o <= config_o;
+                `CP0_REG_PRID: data_o <= prid_o;
                 default: begin end
             endcase
         end

@@ -72,7 +72,7 @@ module mem(
 			LLbit_we_o <= 1'b0;
 			LLbit_value_o <= 1'b0;
 			cp0_reg_data_o <= `ZeroWord;
-			cp0_reg_read_addr_o <= 5'b00000;
+			cp0_reg_write_addr_o <= 5'b00000;
 			cp0_reg_we_o <= `WriteDisable;
 		end else begin
 		  wd_o <= wd_i;
@@ -88,7 +88,7 @@ module mem(
 			LLbit_we_o <= 1'b0;
 			LLbit_value_o <= 1'b0;
 			cp0_reg_data_o <= cp0_reg_data_i;
-			cp0_reg_read_addr_o <= cp0_reg_write_addr_i;
+			cp0_reg_write_addr_o <= cp0_reg_write_addr_i;
 			cp0_reg_we_o <= cp0_reg_we_i;
 			case(aluop_i)
 				`EXE_LB_OP: begin

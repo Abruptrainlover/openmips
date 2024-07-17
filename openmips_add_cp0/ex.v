@@ -308,9 +308,9 @@ always @(*) begin
 					`EXE_MFC0_OP:		begin
 						movres <= cp0_reg_data_i;
 						cp0_reg_read_addr_o <= inst_i[15:11];
-						if(mem_cp0_reg_we == `WriteEnable && mem_cp0_reg_write_addr == inst[15:11]) begin
+						if(mem_cp0_reg_we == `WriteEnable && mem_cp0_reg_write_addr == inst_i[15:11]) begin
 							movres <= mem_cp0_reg_data;
-						end else if(wb_cp0_reg_we == `WriteEnable && wb_cp0_reg_write_addr == inst[15:11]) begin
+						end else if(wb_cp0_reg_we == `WriteEnable && wb_cp0_reg_write_addr == inst_i[15:11]) begin
 							movres <= wb_cp0_reg_data;
 						end 
 					end

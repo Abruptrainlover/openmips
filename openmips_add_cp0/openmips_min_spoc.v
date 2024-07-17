@@ -13,10 +13,14 @@ module openmips_min_spoc (
     wire    ram_we_o;
     wire    ram_ce_o;
     wire[3:0] ram_sel_o;
+    wire [5:0] int;
+    wire timer_int;
+    assign int={5'b00000,timer_int};
     openmips openmips_0 (
         .clk(clk),
         .rst(rst),
         .rom_data_i(inst),
+        .int_i(int),
         .rom_addr_o(inst_addr),
         .rom_ce_o(rom_ce),
         .ram_data_i(ram_data_i),
@@ -24,7 +28,8 @@ module openmips_min_spoc (
         .ram_addr_o(ram_addr_o),
         .ram_we_o(ram_we_o),
         .ram_ce_o(ram_ce_o),
-        .ram_sel_o(ram_sel_o)
+        .ram_sel_o(ram_sel_o),
+        .timer_int_o(timer_int)
     );
 
     inst_rom inst_rom_0 (

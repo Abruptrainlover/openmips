@@ -160,6 +160,9 @@
 `define EXE_MTHI_OP 8'b00010001
 `define EXE_MTLO_OP 8'b00010011
 
+`define EXE_MFC0_OP 8'b01011101
+`define EXE_MTC0_OP 8'b01100000
+
 `define DivFree 2'b00
 `define DivByZero 2'b01
 `define DivOn 2'b10
@@ -241,5 +244,5 @@
 `define CP0_REG_STATUS    5'b01100       
 `define CP0_REG_CAUSE    5'b01101        
 `define CP0_REG_EPC    5'b01110          
-`define CP0_REG_PrId    5'b01111         
+`define CP0_REG_PRID    5'b01111         
 `define CP0_REG_CONFIG    5'b10000 

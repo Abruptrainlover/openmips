@@ -1,0 +1,312 @@
+# reading modelsim.ini
+# Loading project openmips_cp0
+# Compile of cp0_reg.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:40:13 on Jul 17,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.LLbit_reg
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'mem_cp0_reg_data'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_cp0/ex.v(39).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 247
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'mem_cp0_reg_write_addr'. The port definition is at: /home/yzw/Desktop/riscv/openmips_add_cp0/ex.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 247
+# ** Error: (vsim-3063) Port 'mem_cp0_reg_we_i' not found in the connected module (29th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 309
+# ** Error: (vsim-3063) Port 'mem_cp0_reg_data_i' not found in the connected module (30th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 309
+# ** Error: (vsim-3063) Port 'mem_cp0_reg_write_addr_i' not found in the connected module (31st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/ex_mem0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 309
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cp0_reg0'.  Expected 16, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 460
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'count_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'compare_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'status_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'cause_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'epc_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'config_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'prid_o'.
+# Error loading design
+# End time: 21:40:14 on Jul 17,2024, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 12
+# Compile of cp0_reg.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:41:10 on Jul 17,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.LLbit_reg
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cp0_reg0'.  Expected 16, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 460
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'data_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'count_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'compare_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'status_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'cause_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'epc_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'config_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'prid_o'.
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/timer_int_o
+add wave -position insertpoint sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/*
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (9) in data on line 8 of file "inst_rom.data". (Max is 8.)    : /home/yzw/Desktop/riscv/openmips_add_cp0/inst_rom.v(14)
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/inst_rom_0
+quit -sim
+# End time: 21:47:17 on Jul 17,2024, Elapsed time: 0:06:07
+# Errors: 0, Warnings: 12
+# Compile of cp0_reg.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:47:33 on Jul 17,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.LLbit_reg
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cp0_reg0'.  Expected 16, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 460
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'data_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'count_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'compare_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'status_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'cause_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'epc_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'config_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'prid_o'.
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/timer_int_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0/cause_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0/compare_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0/status_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0/timer_int_o
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (9) in data on line 8 of file "inst_rom.data". (Max is 8.)    : /home/yzw/Desktop/riscv/openmips_add_cp0/inst_rom.v(14)
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/inst_rom_0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:51:07 on Jul 17,2024, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 12
+# Compile of cp0_reg.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_spoc.v was successful.
+# Compile of openmips_min_spoc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.openmips_min_spoc_tb
+# vsim work.openmips_min_spoc_tb 
+# Start time: 21:51:18 on Jul 17,2024
+# Loading work.openmips_min_spoc_tb
+# Loading work.openmips_min_spoc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.LLbit_reg
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cp0_reg0'.  Expected 16, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0 File: /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v Line: 460
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'data_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'count_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'compare_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'status_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'cause_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'epc_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'config_o'.
+# ** Warning: (vsim-3722) /home/yzw/Desktop/riscv/openmips_add_cp0/openmips.v(460): [TFMPC] - Missing connection for port 'prid_o'.
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/timer_int_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0/cause_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0/compare_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0/status_o
+add wave -position end  sim:/openmips_min_spoc_tb/openmips_min_spoc_0/openmips_0/cp0_reg0/timer_int_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
